@@ -22,13 +22,14 @@ body {
 }
 
 .background {
-  background: url(../images/diamond-bg.svg) repeat top left, #333;
+  background: url(../images/diamond-bg.svg) repeat fixed top left, #333;
 }
 
 section {
   overflow: hidden;
   background: rgba(32,32,32,.85);
   padding: 1rem;
+  border-bottom-right-radius: .375rem;
   box-shadow: .125rem .125rem .25rem #155b3a;
   margin-bottom: .5rem;
 }
