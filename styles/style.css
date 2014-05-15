@@ -1,0 +1,91 @@
+*, :before, :after {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+
+  padding: 1rem 4.6875%;
+  background: #333;
+  color: #c0c0c0;
+}
+
+section {
+  overflow: hidden;
+}
+
+
+h2, h3 {
+	margin-top: 0;
+}
+
+ul {
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+li {
+  list-style: square;
+  padding-bottom: 6px;
+  
+}
+
+.contents {
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+
+.block-left, .block-right {
+  display: inline-block;
+  text-align: left;
+}
+
+.section-title {
+
+}
+
+
+@media only screen and (min-width: 485px ) and (max-width: 700px ) {
+  .block-right {
+    float: right;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 701px ) {
+  article {
+    width: 80%;
+    float: right;
+  }
+
+  .section-title {
+    width: 20%;
+    display: inline-block;
+    float: left;
+  }
+
+  .block-right {
+    float: right;
+    text-align: right;
+  }
+}
+
+
+
+
+
+
+
