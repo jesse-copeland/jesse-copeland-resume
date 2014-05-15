@@ -17,12 +17,12 @@ html {
 
 body {
 
-  padding: 1rem 4.6875%;
+  padding: 0 4.6875% 1rem;
   color: #dadada;
 }
 
 .background {
-  background: url(../images/diamond-bg.svg) repeat fixed top left, #333;
+  background: url(../images/diamond-bg.svg) repeat fixed top left, #878787;
 }
 
 section {
@@ -51,6 +51,7 @@ li {
 }
 .name {
   text-align: center;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);
 }
 
 .contents {
@@ -65,7 +66,11 @@ li {
 }
 
 .section-title {
+  text-align: center;
+}
 
+.skills-container {
+  overflow: hidden;
 }
 
 
@@ -73,9 +78,7 @@ li {
   .block-right {
     float: right;
     text-align: right;
-  }
-
-  
+  }  
 }
 
 @media only screen and (min-width: 751px ) {
@@ -89,6 +92,7 @@ li {
     display: inline-block;
     margin-top: -.25rem;
     float: left;
+    text-align: left;
   }
 
   .block-right {
@@ -96,7 +100,15 @@ li {
     text-align: right;
   }
 
-  .skills h4 {
+  .skills {
+    float: left;
+    width: 50%;
+  }
+
+  .row {
+    clear: both;
+  }
+  /*.skills h4 {
     width: 20%;
     display: inline-block;
     float: left;
@@ -106,7 +118,7 @@ li {
     width: 80%;
     display: inline-block;
     float: right;
-  }
+  }*/
 }
 
 
