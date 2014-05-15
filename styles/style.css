@@ -26,15 +26,15 @@ body {
 }
 
 section {
+  padding: 1rem;
+  margin-bottom: .5rem;
   overflow: hidden;
   background: rgba(32,32,32,.85);
-  padding: 1rem;
   border-bottom-right-radius: .375rem;
   box-shadow: .125rem .125rem .25rem #155b3a;
-  margin-bottom: .5rem;
 }
 
-h2, h3 {
+h2, h3, h4 {
 	margin: 0 0 .5rem 0;
 }
 
@@ -44,9 +44,9 @@ ul {
 }
 
 li {
+  padding-bottom: 6px;
   list-style: square;
   list-style-position: inside;
-  padding-bottom: 6px;
   
 }
 .name {
@@ -74,6 +74,8 @@ li {
     float: right;
     text-align: right;
   }
+
+  
 }
 
 @media only screen and (min-width: 751px ) {
@@ -92,6 +94,18 @@ li {
   .block-right {
     float: right;
     text-align: right;
+  }
+
+  .skills h4 {
+    width: 20%;
+    display: inline-block;
+    float: left;
+  }
+
+  .skills div {
+    width: 80%;
+    display: inline-block;
+    float: right;
   }
 }
 
