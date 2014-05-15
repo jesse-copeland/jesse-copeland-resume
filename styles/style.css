@@ -29,7 +29,7 @@ section {
   padding: 1rem;
   margin-bottom: .5rem;
   overflow: hidden;
-  background: rgba(32,32,32,.85);
+  background: rgba(32,32,32,.95);
   border-bottom-right-radius: .375rem;
   box-shadow: .125rem .125rem .25rem #155b3a;
 }
