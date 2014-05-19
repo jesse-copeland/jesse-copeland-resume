@@ -25,6 +25,8 @@ body {
   background: url(../images/diamond-bg.svg) repeat fixed top left, #e5e5e5;
   background-attachment: fixed;
   height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 
 }
 
