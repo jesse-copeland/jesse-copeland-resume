@@ -17,8 +17,12 @@ html {
 }
 
 body {
+  height: 100%;
   padding: 0 4.6875% 1rem;
   color: #dadada;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .background {
