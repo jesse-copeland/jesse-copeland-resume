@@ -13,10 +13,10 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
+  overflow: hidden;
 }
 
 body {
-
   padding: 0 4.6875% 1rem;
   color: #dadada;
 }
@@ -24,8 +24,6 @@ body {
 .background {
   background: url(../images/diamond-bg.svg) repeat fixed top left, #e5e5e5;
   background-attachment: fixed;
-  height: 100%;
-  overflow: auto;
 }
 
 section {
