@@ -1,8 +1,25 @@
+html {
+  overflow: initial;
+}
+
 body {
 	color: #000;
+}
+
+.background {
+  background: none;
+}
+
+section {
+  background: none;
+  box-shadow: none;
 }
 
 .block-right {
 	float: right;
     text-align: right;
+}
+
+i.dl-logo {
+  background: url("../images/devleague-inverse.svg") no-repeat;
 }
