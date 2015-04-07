@@ -125,9 +125,6 @@ i.dl-logo {
     padding-right: 4.6875%;
   }
 
-  i.fa {
-    display: inline-block;
-  }
 
   .block-right {
     float: right;
@@ -139,6 +136,10 @@ i.dl-logo {
   article {
     width: 78%;
     float: right;
+  }
+
+  i.fa {
+    display: inline-block;
   }
 
   .section-title {
