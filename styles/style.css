@@ -32,7 +32,7 @@ body {
 }
 
 section {
-  padding: 2rem;
+  padding: 1rem;
   margin-bottom: .5rem;
   overflow: hidden;
   background: rgba(0,0,0,.82);
@@ -51,6 +51,7 @@ p {
 
 ul {
   padding: 0 0 0 1.0625rem;
+  margin-top: .625rem;
   margin-bottom: 1rem;
 }
 
@@ -92,18 +93,29 @@ li {
   padding-left: 1.75rem;
 }
 
+i.fa {
+  display: none;
+}
+
 i.dl-logo {
-  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 0;
   background: url("../images/devleague.svg") no-repeat;
-  background-size: 100% 100%;
-  width: 22px;
+  background-size: cover;
+  width: 24px;
   height: 26px;
+
 }
 
 @media only screen and (min-width: 360px) {
   body {
     padding-left: 4.6875%;
     padding-right: 4.6875%;
+  }
+
+  i.fa {
+    display: inline-block;
   }
 }
 
