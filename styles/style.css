@@ -119,16 +119,14 @@ i.dl-logo {
   }
 }
 
-@media only screen and (min-width: 481px) {
-  i.fa {
-    display: inline-block;
-  }
-}
-
 @media only screen and (min-width: 610px ) {
   body {
     padding-left: 4.6875%;
     padding-right: 4.6875%;
+  }
+
+  i.fa {
+    display: inline-block;
   }
 
   .block-right {
