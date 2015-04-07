@@ -10,9 +10,50 @@ body {
   background: none;
 }
 
+i.fa {
+  display: inline-block;
+}
+
+i.dl-logo {
+  background: url("../images/devleague-inverse.svg") no-repeat;
+}
+
+article {
+  width: 78%;
+  float: right;
+}
+
+.section-title {
+  width: 22%;
+  display: inline-block;
+  margin-top: -.25rem;
+  float: left;
+  text-align: left;
+}
+
+.block-right {
+  float: right;
+  text-align: right;
+}
+
+.skills {
+  float: left;
+  width: 50%;
+}
+
+.row {
+  clear: both;
+}
+
 section {
   background: none;
   box-shadow: none;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.paper-break {
+  page-break-after: always;
 }
 
 .block-right {
