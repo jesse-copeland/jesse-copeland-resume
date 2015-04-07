@@ -115,9 +115,11 @@ i.dl-logo {
   }
 
   section {
-    
+
   }
-  
+}
+
+@media only screen and (min-width: 481px) {
   i.fa {
     display: inline-block;
   }
