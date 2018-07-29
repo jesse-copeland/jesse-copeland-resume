@@ -1,0 +1,35 @@
+{
+  "name": "jesse-copeland-resume",
+  "version": "1.0.0",
+  "description": "jesse-copeland-resume =====================",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next src/html",
+    "build": "next build src/html",
+    "export": "npm run build && next export src/html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentalgrinds/jesse-copeland-resume.git"
+  },
+  "browser": {
+    "fs": false
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mentalgrinds/jesse-copeland-resume/issues"
+  },
+  "homepage": "https://github.com/mentalgrinds/jesse-copeland-resume#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

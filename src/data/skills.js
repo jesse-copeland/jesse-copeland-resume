@@ -6,7 +6,7 @@
   ]
 }
 */
-module.export = [
+module.exports = [
   {
     type: 'Modern Web Stack',
     skills: [
@@ -14,7 +14,7 @@ module.export = [
       'Node.js/Express.js',
       'HTML5/CSS3',
       'SPA MV* Apps/React.js/AngularJS',
-      'PostgreSQL/MongoDB',
+      'PostgreSQL/MongoDB'
     ]
   },
   {
@@ -22,7 +22,7 @@ module.export = [
     skills: [
       'JavaScript/JQuery',
       'Docker/Ansible',
-      'Linux/Ubuntu',
+      'Linux/Ubuntu'
     ]
   },
   {
@@ -33,7 +33,7 @@ module.export = [
       'Mobile Web Development',
       'Webpack/Gulp',
       'Standards Compliant',
-      'Cross-browser Compatibility',
+      'Cross-browser Compatibility'
     ]
   },
   {
@@ -44,7 +44,7 @@ module.export = [
       'Ansible',
       'Trello/waffle.io/Github project',
       'JIRA/Bamboo',
-      'Pixelmator/Sketch',
+      'Pixelmator/Sketch'
     ]
   }
 ];

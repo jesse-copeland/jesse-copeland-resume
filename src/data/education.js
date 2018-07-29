@@ -14,14 +14,14 @@
   {
     institution: 'DevLeague',
     degree: 'JavaScript Web Engineer',
-    program: 'Bootcamp Student',
+    program: 'Bootcamp',
     completed: 'January 2015 - April 2015',
     city: 'Honolulu',
     state: 'Hawaii',
     accomplishments: [
       'Immersive developers bootcamp focusing on JavaScript web stack technologies.',
       'Worked on 20+ projects used to introduce and utilize various web technologies, including AngularJS, Node.js, Express.js, D3.js, Sass, and MongoDB.',
-      'Participated in two hackathons and various community tech meetups.',
+      'Participated in two hackathons and various community tech meetups.'
     ]
   },
   {
@@ -34,7 +34,7 @@
     accomplishments: [
       'GPA: 3.62 (Major: 3.875) Magna Cum Laude',
       'Dean’s List six semesters',
-      'Beta Gamma Sigma',
+      'Beta Gamma Sigma'
     ]
   }
  ];

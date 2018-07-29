@@ -10,7 +10,7 @@
   }
  */
 
-module.export = [
+module.exports = [
   {
     company: 'DevLeague',
     position: 'Lead Instructor',
@@ -25,7 +25,7 @@ module.export = [
       'Guided students through the development of fully working applications, including final projects.',
       'Reviewed and provided feedback on student code.',
       'Help maintain and add course content to provide the most relevant curriculum possible.',
-      'Implemented service to capture new student applications. Built using Express.js, PostgreSQL and React/Redux.',
+      'Implemented service to capture new student applications. Built using Express.js, PostgreSQL and React/Redux.'
     ]
   },
   {
@@ -39,7 +39,7 @@ module.export = [
       'Designed and implemented data architecture for projects.',
       'Worked on numerous web applications utilizing the latest JavaScript tech stack.',
       'Filled role of DevOps within team, including taking responsibility for production releases.',
-      'Worked on backend API development in Express.js, and front-end development using AngularJS and React.js',
+      'Worked on backend API development in Express.js, and front-end development using AngularJS and React.js'
     ]
   },
   {
